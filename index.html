@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/png" href="images/SR-logo.png" sizes="16x16"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <form action="">
+            <div class="control">
+                <p>Enter Total Bill Amount</p>
+                <p class="input">
+                    $
+                    <input type="number" name="" id="totalBill" placeholder="000">
+                </p>
+            </div>
+            <div class="control">
+                <p>Select Tip percentage for your service</p>
+                    <select name="" id="tipPercent">
+                        <option disabled selected value="">choose your tip</option>
+                        <option value="0">0% - Poor</option>
+                        <option value="0.1">10% - Good</option>
+                        <option value="0.2">20% - Better</option>
+                        <option value="0.3">30% - Outstanding</option>
+                    </select>
+            </div>
+        </form>
+        <p>Split the bill into</p>
+        <input type="number" name="" id="split" placeholder="0"> <br>
+        <br>
+        <button id="calculate">Calculate</button>
+        <div class="totalTip">
+            <p>Tip Amount per person</p>
+            <p class="tip">$ <span id="tip">0.00</span></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

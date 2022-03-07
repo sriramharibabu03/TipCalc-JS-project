@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Josefin Slab', serif;
+    height: 100vh;
+    background-color: rgb(247, 177, 96);
+    font-size: 20px;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;  
+    width: 450px; 
+    height: 510px;
+    background-color: thistle;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 12px black;
+}
+
+h1{
+    font-size: 28px;
+    padding: 10px 0;
+    background-color: rgb(240, 72, 105);
+    border-radius: 15px;
+    color: rgb(119, 1, 66);
+}
+
+p{
+    color: rgb(145, 14, 86);
+}
+
+.control {
+    margin: 25px 0;
+}
+
+input {
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid rgb(145, 14, 86);
+    color: rgb(145, 14, 86);
+    font-size: 22px;
+    margin-top: 15px;
+    background-color: thistle;
+}
+
+select {
+    border: none;
+    outline: none;
+    background-color: thistle;
+    border: 1px solid rgb(145, 14, 86);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px 40px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+button#calculate {
+    background-color: rgb(207, 10, 119);
+    border: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: thistle;
+}
+
+button#calculate:hover {
+    color: rgb(207, 10, 119);
+    border: 1px solid rgb(207, 10, 119);
+    background-color: thistle;
+    cursor: pointer;
+}
+
+.totalTip {
+    background-color: rgb(236, 125, 147);
+    padding: 15px 0 15px;
+    border-radius: 15px;
+    color: rgb(66, 15, 42);
+}
+
+p.tip {
+    font-size: 38px;
+    margin-top: 10px;
+    padding: 5px 0 5px;
+    color: rgb(82, 19, 53);
+    font-weight: bold;
+}
